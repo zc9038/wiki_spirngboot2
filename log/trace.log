@@ -1,146 +1,23 @@
-2024-07-19 14:49:07.161 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 69652 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 14:49:07.162 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 14:49:07.190 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 14:49:07.192 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 14:49:07.769 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 14:49:07.774 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 14:49:07.774 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 14:49:07.774 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 14:49:07.819 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 14:49:07.820 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 628 ms
-2024-07-19 14:49:07.960 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 14:49:08.029 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 14:49:08.037 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 14:49:08.091 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 14:49:08.098 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 1.253 seconds (JVM running for 1.989)
-2024-07-19 14:50:01.645 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 15444 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 14:50:01.646 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 14:50:01.681 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 14:50:01.681 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 14:50:02.270 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 14:50:02.276 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 14:50:02.276 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 14:50:02.277 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 14:50:02.325 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 14:50:02.325 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 644 ms
-2024-07-19 14:50:02.472 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 14:50:02.541 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 14:50:02.549 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 14:50:02.605 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 14:50:02.612 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 1.271 seconds (JVM running for 2.07)
-2024-07-19 14:50:09.910 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-19 14:50:09.911 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2024-07-19 14:50:09.913 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2024-07-19 15:16:48.122 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 91448 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 15:16:48.123 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 15:16:48.152 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 15:16:48.153 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 15:16:48.747 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 15:16:48.753 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:16:48.753 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 15:16:48.753 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 15:16:48.795 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 15:16:48.796 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 643 ms
-2024-07-19 15:16:48.932 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 15:16:48.995 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 15:16:49.004 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:16:49.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 15:16:49.066 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 1.218 seconds (JVM running for 1.93)
-2024-07-19 15:22:04.062 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 30656 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 15:22:04.063 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 15:22:04.093 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 15:22:04.094 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 15:22:04.677 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 15:22:04.684 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:22:04.684 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 15:22:04.684 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 15:22:04.728 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 15:22:04.728 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 634 ms
-2024-07-19 15:22:04.877 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 15:22:04.950 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 15:22:04.958 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:22:05.014 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 15:22:05.020 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 1.235 seconds (JVM running for 1.935)
-2024-07-19 15:25:05.157 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-07-19 15:25:05.491 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:25:05.492 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 15:25:05.499 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:25:05.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:25:05.592 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 30656 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 15:25:05.592 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 15:25:05.750 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 15:25:05.751 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:25:05.751 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 15:25:05.751 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 15:25:05.768 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 15:25:05.768 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 175 ms
-2024-07-19 15:25:05.796 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 15:25:05.810 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 15:25:05.814 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:25:05.853 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 15:25:05.856 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 0.293 seconds (JVM running for 182.772)
-2024-07-19 15:25:05.857 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 15:29:35.250 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-07-19 15:29:35.566 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:29:35.567 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 15:29:35.570 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:29:35.572 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:29:35.675 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 30656 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 15:29:35.675 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 15:29:35.809 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 15:29:35.809 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:29:35.809 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 15:29:35.809 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 15:29:35.820 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 15:29:35.820 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 143 ms
-2024-07-19 15:29:35.844 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 15:29:35.854 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 15:29:35.857 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:29:35.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 15:29:35.897 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 0.247 seconds (JVM running for 452.812)
-2024-07-19 15:29:35.897 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 15:33:04.051 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 33304 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 15:33:04.052 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 15:33:04.084 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 15:33:04.084 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 15:33:04.728 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 15:33:04.735 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:33:04.735 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 15:33:04.736 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 15:33:04.784 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 15:33:04.784 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 699 ms
-2024-07-19 15:33:04.951 INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping     :53   [32m                  [0;39m Adding welcome page: class path resource [static/index.html]
-2024-07-19 15:33:05.029 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 15:33:05.039 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 15:33:05.099 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 15:33:05.106 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:61   [32m                  [0;39m Started WikiSpringboot2Application in 1.355 seconds (JVM running for 2.108)
-2024-07-19 15:33:05.108 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:17   [32m                  [0;39m 启动成功
-2024-07-19 15:33:05.108 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:18   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 16:35:33.437 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 49964 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:35:33.438 INFO  com.zc.wiki_springboot2.config.WikiSpringboot2Application:645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:35:33.470 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 16:35:33.470 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 16:35:34.128 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:35:34.134 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:35:34.135 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:35:34.135 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:35:34.182 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:35:34.183 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 711 ms
-2024-07-19 16:35:34.331 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-2024-07-19 16:35:34.333 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:35:34.344 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+2024-07-22 11:18:18.717 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 73932 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:18:18.720 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:18:18.765 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22 11:18:18.766 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22 11:18:19.601 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:18:19.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:18:19.611 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:18:19.611 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:18:19.669 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:18:19.669 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 902 ms
+2024-07-22 11:18:19.852 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testMapper' defined in file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\com\zc\wiki_springboot2\mapper\TestMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+2024-07-22 11:18:19.854 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:18:19.863 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-07-19 16:35:34.364 ERROR org.springframework.boot.SpringApplication        :835  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+2024-07-22 11:18:19.887 ERROR org.springframework.boot.SpringApplication        :835  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testMapper' defined in file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\com\zc\wiki_springboot2\mapper\TestMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
@@ -153,210 +30,334 @@ com.zc.wiki_springboot2.controller.TestController#hello() mapped.
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at com.zc.wiki_springboot2.config.WikiSpringboot2Application.main(WikiSpringboot2Application.java:16)
+	at com.zc.wiki_springboot2.config.WikiSpringboot2Application.main(WikiSpringboot2Application.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 19 common frames omitted
-2024-07-19 16:37:53.855 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 32648 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:37:53.857 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:37:53.889 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 16:37:53.890 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 16:37:54.502 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:37:54.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:37:54.508 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:37:54.509 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:37:54.553 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:37:54.553 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 663 ms
-2024-07-19 16:37:54.697 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-2024-07-19 16:37:54.699 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:37:54.709 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-07-19 16:37:54.730 ERROR org.springframework.boot.SpringApplication        :835  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testMapper' defined in file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\com\zc\wiki_springboot2\mapper\TestMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testMapper' defined in file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\com\zc\wiki_springboot2\mapper\TestMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at com.zc.wiki_springboot2.config.WikiSpringboot2Application.main(WikiSpringboot2Application.java:18)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 61 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2858fffd.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2858fffd$$FastClassBySpringCGLIB$$8f8d695.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$2858fffd.sqlSessionFactory(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'basicController' method 
-com.zc.wiki_springboot2.demos.web.BasicController#hello(String)
-to { [/hello]}: There is already 'testController' bean method
-com.zc.wiki_springboot2.controller.TestController#hello() mapped.
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:669)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:635)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:332)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:420)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:76)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:299)
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:297)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 19 common frames omitted
-2024-07-19 16:39:31.998 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:39:32.000 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:39:32.035 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-07-19 16:39:32.035 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-07-19 16:39:32.614 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:39:32.621 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:39:32.622 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:39:32.622 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:39:32.670 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:39:32.670 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 634 ms
-2024-07-19 16:39:32.884 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 16:39:32.893 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:39:32.948 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 16:39:32.955 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 1.239 seconds (JVM running for 1.977)
-2024-07-19 16:39:32.957 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 16:39:32.957 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 16:39:39.791 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-19 16:39:39.791 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2024-07-19 16:39:39.792 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2024-07-19 16:45:39.966 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-07-19 16:45:40.297 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:40.297 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:45:40.298 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
-2024-07-19 16:45:40.305 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:40.307 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:40.407 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:45:40.407 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:45:40.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:45:40.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:40.574 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:45:40.574 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:45:40.590 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:45:40.590 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 180 ms
-2024-07-19 16:45:40.642 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 16:45:40.646 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:40.709 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 16:45:40.711 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.336 seconds (JVM running for 369.733)
-2024-07-19 16:45:40.712 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 16:45:40.713 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 16:45:40.713 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 16:45:42.069 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-07-19 16:45:42.408 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:42.408 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:45:42.411 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:42.413 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:42.523 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:45:42.523 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:45:42.635 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:45:42.636 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:42.636 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:45:42.636 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:45:42.647 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:45:42.648 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 123 ms
-2024-07-19 16:45:42.677 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 16:45:42.680 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:45:42.718 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 16:45:42.722 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.224 seconds (JVM running for 371.744)
-2024-07-19 16:45:42.723 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 16:45:42.723 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 16:45:42.724 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 16:52:02.299 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2024-07-19 16:52:02.634 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:02.634 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:52:02.639 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:02.641 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:02.749 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:52:02.750 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:52:02.898 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:52:02.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:02.899 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:52:02.899 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:52:02.909 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:52:02.910 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 158 ms
-2024-07-19 16:52:02.942 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 16:52:02.945 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:02.983 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 16:52:02.986 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.263 seconds (JVM running for 752.007)
-2024-07-19 16:52:02.986 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 16:52:02.987 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 16:52:02.987 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 16:52:04.370 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2024-07-19 16:52:04.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:04.679 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 16:52:04.681 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:04.684 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:04.754 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 16:52:04.754 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 16:52:04.861 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 16:52:04.861 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:04.861 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 16:52:04.861 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 16:52:04.871 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 16:52:04.872 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 116 ms
-2024-07-19 16:52:04.899 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 16:52:04.901 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 16:52:04.938 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 16:52:04.940 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.207 seconds (JVM running for 753.962)
-2024-07-19 16:52:04.941 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 16:52:04.941 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 16:52:04.941 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
-2024-07-19 17:13:32.190 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 3 class path changes (2 additions, 1 deletion, 0 modifications)
-2024-07-19 17:13:32.504 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
-2024-07-19 17:13:32.504 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2024-07-19 17:13:32.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
-2024-07-19 17:13:32.510 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
-2024-07-19 17:13:32.613 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 82264 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
-2024-07-19 17:13:32.613 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-07-19 17:13:32.742 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
-2024-07-19 17:13:32.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
-2024-07-19 17:13:32.743 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-07-19 17:13:32.743 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
-2024-07-19 17:13:32.753 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-07-19 17:13:32.753 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 137 ms
-2024-07-19 17:13:32.779 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2024-07-19 17:13:32.781 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
-2024-07-19 17:13:32.820 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
-2024-07-19 17:13:32.822 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.272 seconds (JVM running for 2041.844)
-2024-07-19 17:13:32.823 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2024-07-19 17:13:32.823 INFO  c.z.w.config.WikiSpringboot2Application           :19   [32m                  [0;39m 启动成功
-2024-07-19 17:13:32.824 INFO  c.z.w.config.WikiSpringboot2Application           :20   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 62 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes\mapper\TestMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 75 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.zc.wiki.domain.Test'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 81 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.zc.wiki.domain.Test
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 83 common frames omitted
+2024-07-22 11:24:00.078 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 49528 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:24:00.080 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:24:00.118 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22 11:24:00.118 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22 11:24:00.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:24:00.867 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:00.868 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:24:00.868 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:24:00.924 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:24:00.924 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 806 ms
+2024-07-22 11:24:01.357 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:24:01.368 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:01.409 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:24:01.417 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 1.632 seconds (JVM running for 2.354)
+2024-07-22 11:24:01.419 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:24:01.419 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:24:56.814 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-22 11:24:57.150 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:57.150 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:24:57.153 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:57.156 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:57.265 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 49528 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:24:57.265 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:24:57.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:24:57.447 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:57.447 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:24:57.447 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:24:57.460 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:24:57.460 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 193 ms
+2024-07-22 11:24:57.535 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:24:57.540 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:57.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:24:57.575 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.339 seconds (JVM running for 58.513)
+2024-07-22 11:24:57.576 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:24:57.577 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:24:57.577 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:24:58.965 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-22 11:24:59.295 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:59.295 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:24:59.298 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:59.300 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:59.396 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 49528 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:24:59.396 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:24:59.573 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:24:59.573 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:59.573 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:24:59.573 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:24:59.590 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:24:59.590 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 191 ms
+2024-07-22 11:24:59.653 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:24:59.657 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:24:59.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:24:59.690 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.319 seconds (JVM running for 60.628)
+2024-07-22 11:24:59.691 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:24:59.691 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:24:59.692 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:27:01.419 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:27:01.421 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:27:01.466 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-22 11:27:01.466 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-22 11:27:02.323 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:27:02.331 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:02.331 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:27:02.331 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:27:02.387 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:27:02.387 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 920 ms
+2024-07-22 11:27:02.807 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:27:02.817 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:02.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:27:02.865 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 1.782 seconds (JVM running for 2.53)
+2024-07-22 11:27:02.867 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:27:02.868 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:27:27.922 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-22 11:27:29.017 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:29.018 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:27:29.026 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:29.029 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:29.266 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:27:29.267 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:27:29.713 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:27:29.714 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:29.714 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:27:29.715 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:27:29.758 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:27:29.758 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 484 ms
+2024-07-22 11:27:29.942 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:27:29.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:30.023 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:27:30.030 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.849 seconds (JVM running for 29.695)
+2024-07-22 11:27:30.033 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:27:30.033 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:27:30.034 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:27:31.398 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-22 11:27:32.301 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:32.302 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:27:32.307 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:32.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:32.547 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:27:32.548 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:27:33.035 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:27:33.036 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:33.037 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:27:33.037 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:27:33.080 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:27:33.081 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 527 ms
+2024-07-22 11:27:33.213 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:27:33.220 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:27:33.287 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:27:33.294 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.826 seconds (JVM running for 32.958)
+2024-07-22 11:27:33.296 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:27:33.297 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:27:33.298 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:32:56.744 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-22 11:32:57.060 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:57.060 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:32:57.064 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:57.066 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:57.164 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:32:57.164 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:32:57.352 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:32:57.353 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:57.353 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:32:57.353 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:32:57.366 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:32:57.366 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 200 ms
+2024-07-22 11:32:57.427 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:32:57.431 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:57.461 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:32:57.463 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.324 seconds (JVM running for 357.128)
+2024-07-22 11:32:57.464 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:32:57.464 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:32:57.465 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:32:58.844 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-22 11:32:59.153 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:59.153 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:32:59.155 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:59.157 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:59.246 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:32:59.247 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:32:59.390 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:32:59.391 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:59.391 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:32:59.391 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:32:59.404 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:32:59.404 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 156 ms
+2024-07-22 11:32:59.461 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:32:59.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:32:59.495 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:32:59.498 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.274 seconds (JVM running for 359.162)
+2024-07-22 11:32:59.498 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:32:59.499 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:32:59.499 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:33:32.547 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-22 11:33:32.880 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:32.880 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:33:32.883 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:32.885 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:32.952 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:33:32.952 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:33:33.122 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:33:33.122 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:33.122 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:33:33.122 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:33:33.135 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:33:33.135 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 180 ms
+2024-07-22 11:33:33.195 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:33:33.199 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:33.232 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:33:33.236 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.31 seconds (JVM running for 392.9)
+2024-07-22 11:33:33.237 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:33:33.237 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:33:33.237 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:33:34.634 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-22 11:33:34.946 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:34.947 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:33:34.948 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:34.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:35.035 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:33:35.036 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:33:35.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:33:35.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:35.186 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:33:35.186 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:33:35.198 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:33:35.200 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 161 ms
+2024-07-22 11:33:35.256 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:33:35.260 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:33:35.291 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:33:35.294 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.283 seconds (JVM running for 394.958)
+2024-07-22 11:33:35.294 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:33:35.295 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:33:35.295 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:34:12.358 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-22 11:34:12.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:12.678 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:34:12.681 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:12.683 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:12.748 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:34:12.748 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:34:12.924 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:34:12.924 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:12.924 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:34:12.924 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:34:12.939 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:34:12.939 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 189 ms
+2024-07-22 11:34:12.995 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:34:12.999 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:13.029 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:34:13.031 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.311 seconds (JVM running for 432.696)
+2024-07-22 11:34:13.032 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:34:13.032 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:34:13.032 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080
+2024-07-22 11:34:14.419 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-22 11:34:14.762 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:14.762 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-22 11:34:14.765 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:14.766 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:14.870 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 60364 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-07-22 11:34:14.870 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-22 11:34:15.012 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-07-22 11:34:15.012 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:15.012 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-22 11:34:15.012 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-22 11:34:15.026 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-22 11:34:15.026 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 154 ms
+2024-07-22 11:34:15.082 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-07-22 11:34:15.086 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-22 11:34:15.116 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2024-07-22 11:34:15.119 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.272 seconds (JVM running for 434.783)
+2024-07-22 11:34:15.120 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-07-22 11:34:15.120 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-07-22 11:34:15.120 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8080

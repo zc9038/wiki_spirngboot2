@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zc.wiki.mapper.TestMapper">
-    <select id="list" resultType="com.zc.wiki.domain.Test">
+    <select id="list" resultType="com.zc.wiki_springboot2.domain.Test">
         select * from test
     </select>
 
