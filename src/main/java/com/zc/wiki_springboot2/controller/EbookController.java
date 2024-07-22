@@ -1,6 +1,7 @@
 package com.zc.wiki_springboot2.controller;
 
 import com.zc.wiki_springboot2.domain.Ebook;
+import com.zc.wiki_springboot2.resp.CommonResp;
 import com.zc.wiki_springboot2.service.EbookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +18,10 @@ public class EbookController {
     EbookService ebookService;
 
     @GetMapping("/list")
-    public List<Ebook> ebookList(){
-        return ebookService.selectByExample();
+    public CommonResp selectByExample(){
+        CommonResp<List<Ebook>> resp = new CommonResp<>();
+        List<Ebook> ebookList = ebookService.selectByExample();
+        resp.setContent(ebookList);
+        return resp;
     }
 }
