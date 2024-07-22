@@ -1,5 +1,6 @@
 package com.zc.wiki_springboot2.config;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -9,6 +10,7 @@ import org.springframework.core.env.Environment;
 
 @ComponentScan("com.zc.wiki_springboot2")
 @SpringBootApplication
+@MapperScan("com.zc.wiki_springboot2.mapper")
 public class WikiSpringboot2Application {
 
     private static final Logger LOG = LoggerFactory.getLogger(WikiSpringboot2Application.class);
