@@ -24,4 +24,12 @@ public class EbookController {
         resp.setContent(ebookList);
         return resp;
     }
+
+    @GetMapping("/listByName")
+    public CommonResp selectByName(String name){
+        CommonResp<List<Ebook>> resp = new CommonResp<>();
+        List<Ebook> ebookList = ebookService.selectByName(name);
+        resp.setContent(ebookList);
+        return resp;
+    }
 }
