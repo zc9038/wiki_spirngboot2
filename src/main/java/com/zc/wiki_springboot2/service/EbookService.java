@@ -5,11 +5,10 @@ import com.zc.wiki_springboot2.domain.EbookExample;
 import com.zc.wiki_springboot2.mapper.EbookMapper;
 import com.zc.wiki_springboot2.req.EbookReq;
 import com.zc.wiki_springboot2.resp.EbookResp;
-import org.springframework.beans.BeanUtils;
+import com.zc.wiki_springboot2.utils.CopyUtil;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -33,13 +32,14 @@ public class EbookService {
         EbookExample.Criteria criteria = ebookExample.createCriteria();
         criteria.andNameLike("%" + req.getName() + "%");
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
-        List<EbookResp> respList = new ArrayList<EbookResp>();
+
+/*        List<EbookResp> respList = new ArrayList<EbookResp>();
         for (Ebook ebook : ebookList) {
             EbookResp resp = new EbookResp();
             BeanUtils.copyProperties(ebook, resp);
             respList.add(resp);
-        }
-        return respList;
+        }*/
+        return CopyUtil.copyList(ebookList, EbookResp.class);
     }
 
 }
