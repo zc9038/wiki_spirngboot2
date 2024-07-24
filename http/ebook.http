@@ -3,3 +3,7 @@ GET http://localhost:8080/ebook/list
 ###
 
 GET http://localhost:8080/ebook/listByName?name=Spring
+
+###
+
+GET http://localhost:8080/ebook/listByReq?name=Spring
