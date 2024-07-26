@@ -53,12 +53,6 @@
   </a-layout>
 </template>
 
-<script lang="ts" setup>
-import { ref } from 'vue';
-import { UserOutlined, LaptopOutlined, NotificationOutlined } from '@ant-design/icons-vue';
-const selectedKeys2 = ref<string[]>(['1']);
-const openKeys = ref<string[]>(['sub1']);
-</script>
 <style scoped>
 #components-layout-demo-top-side-2 .logo {
   float: left;
