@@ -13,7 +13,7 @@ import { defineComponent } from 'vue';
 import TheHeader from '@/components/the-header.vue';
 
 export default defineComponent({
-  name: 'TheHeader',
+  name: 'app',
   components: {
     TheHeader,
   }
