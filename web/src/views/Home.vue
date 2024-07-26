@@ -53,6 +53,21 @@
   </a-layout>
 </template>
 
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
+import axios from 'axios';
+
+export default defineComponent({
+  name: 'TheHeader',
+  setup() {
+    console.log('setup');
+    axios.get('http://localhost:8880/ebook/listByReq?name=Spring').then(response => {
+      console.log(response);
+    })
+  }
+});
+</script>
+
 <style scoped>
 #components-layout-demo-top-side-2 .logo {
   float: left;
