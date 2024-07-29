@@ -70,7 +70,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent,onMounted,ref} from 'vue';
+import { defineComponent,onMounted,ref } from 'vue';
 import { StarOutlined, LikeOutlined, MessageOutlined } from '@ant-design/icons-vue';
 import axios from 'axios';
 
@@ -83,7 +83,6 @@ const actions: Record<string, any>[] = [
 export default defineComponent({
   name: 'TheHeader',
   setup() {
-    console.log('setup');
     const ebooks = ref();
 
     onMounted(() => {
