@@ -36,14 +36,10 @@ public class EbookController {
     }
 
     @GetMapping("/listByReq")
-    public CommonResp selectByName(EbookReq req){
+    public CommonResp listByReq(EbookReq req){
         CommonResp<List<EbookResp>> resp = new CommonResp<>();
-        List<EbookResp> ebookList = ebookService.list(req);
-/*        if (ebookList.isEmpty()) {
-            resp.setSuccess(false);
-        } else {
-            resp.setSuccess(true);
-        }*/
+        System.out.println(req);
+        List<EbookResp> ebookList = ebookService.listByReq(req);
         resp.setContent(ebookList);
         return resp;
     }

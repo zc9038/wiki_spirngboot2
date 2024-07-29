@@ -87,7 +87,7 @@ export default defineComponent({
     const ebooks = ref();
 
     onMounted(() => {
-      axios.get('http://localhost:8880/ebook/listByReq?name=Spring').then(resp => {
+      axios.get('http://localhost:8880/ebook/listByReq').then(resp => {
         const data = resp.data;
         ebooks.value = data.content;
         console.log(resp);
@@ -113,6 +113,13 @@ export default defineComponent({
 .ant-row-rtl #components-layout-demo-top-side-2 .logo {
   float: right;
   margin: 16px 0 16px 24px;
+}
+.ant-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 8%;
+  line-height: 50px;
+  margin: 5px 0;
 }
 
 .site-layout-background {
