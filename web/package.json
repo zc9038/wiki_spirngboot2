@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve-dev": "vue-cli-service serve --mode dev",
+    "serve-prod": "vue-cli-service serve --mode prod",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -11,6 +12,7 @@
     "@ant-design/icons-vue": "^7.0.1",
     "ant-design-vue": "^4.0.0-rc.6",
     "antd": "^5.19.3",
+    "axios": "^0.21.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
