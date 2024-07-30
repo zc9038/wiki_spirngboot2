@@ -26,14 +26,17 @@ public class LogFilter implements Filter {
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
         // 记录请求信息
+        logger.info("--------------------过滤器开始--------------------");
         logger.info("Request - URL: {}, Method: {}, Remote Address: {}",
                 httpRequest.getRequestURL(), httpRequest.getMethod(), httpRequest.getRemoteAddr());
 
         // 继续处理请求
+        long startTime = System.currentTimeMillis();
         chain.doFilter(request, response);
 
         // 记录响应信息
         logger.info("Response - Status: {}", httpResponse.getStatus());
+        logger.info("---------------过滤器结束-耗时: {} ms---------------", System.currentTimeMillis() - startTime);
     }
 
     @Override
