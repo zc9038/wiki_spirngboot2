@@ -19,13 +19,13 @@ public class EbookController {
     @Resource
     EbookService ebookService;
 
-    @GetMapping("/list")
+/*    @GetMapping("/list")
     public CommonResp selectByExample(){
         CommonResp<List<Ebook>> resp = new CommonResp<>();
         List<Ebook> ebookList = ebookService.selectByExample();
         resp.setContent(ebookList);
         return resp;
-    }
+    }*/
 
     @GetMapping("/listByName")
     public CommonResp selectByName(String name){
@@ -35,10 +35,9 @@ public class EbookController {
         return resp;
     }
 
-    @GetMapping("/listByReq")
+    @GetMapping("/list")
     public CommonResp listByReq(EbookReq req){
         CommonResp<List<EbookResp>> resp = new CommonResp<>();
-        System.out.println(req);
         List<EbookResp> ebookList = ebookService.listByReq(req);
         resp.setContent(ebookList);
         return resp;

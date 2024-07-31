@@ -7,7 +7,7 @@ import 'ant-design-vue/dist/reset.css'
 import * as Icons from '@ant-design/icons-vue'
 import axios from 'axios'
 
-axios.defaults.baseURL = process.env.VUE_APP_SERVER;
+axios.defaults.baseURL = process.env.VUE_APP_API_URL;
 
 const app = createApp(App);
 app.use(store).use(router).use(Antd).mount('#app');
