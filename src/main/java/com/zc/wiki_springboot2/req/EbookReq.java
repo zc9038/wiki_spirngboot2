@@ -1,6 +1,6 @@
 package com.zc.wiki_springboot2.req;
 
-public class EbookReq {
+public class EbookReq extends PageReq{
 
     private Long id;
 

@@ -4,6 +4,7 @@ import com.zc.wiki_springboot2.domain.Ebook;
 import com.zc.wiki_springboot2.req.EbookReq;
 import com.zc.wiki_springboot2.resp.CommonResp;
 import com.zc.wiki_springboot2.resp.EbookResp;
+import com.zc.wiki_springboot2.resp.PageResp;
 import com.zc.wiki_springboot2.service.EbookService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,9 +38,9 @@ public class EbookController {
 
     @GetMapping("/list")
     public CommonResp listByReq(EbookReq req){
-        CommonResp<List<EbookResp>> resp = new CommonResp<>();
-        List<EbookResp> ebookList = ebookService.listByReq(req);
-        resp.setContent(ebookList);
+        CommonResp<PageResp<EbookResp>> resp = new CommonResp<>();
+        PageResp<EbookResp> pageResp = ebookService.listByReq(req);
+        resp.setContent(pageResp);
         return resp;
     }
 }

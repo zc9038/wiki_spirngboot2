@@ -39,7 +39,7 @@ export default defineComponent({
     const ebooks = ref();
     const pagination = ref({
       current: 1,
-      pageSize: 2,
+      pageSize: 4,
       total: 0
     });
     const loading = ref(false);
@@ -101,7 +101,7 @@ export default defineComponent({
      * 表格点击页码时触发
      */
     const handleTableChange = (pagination: any) => {
-      console.log("看看自带的分页参数都有啥：" + pagination);
+      console.log("看看自带的分页参数都有啥：" + pagination.current);
       handleQuery({
         page: pagination.current,
         size: pagination.pageSize
