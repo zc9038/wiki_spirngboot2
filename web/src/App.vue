@@ -2,7 +2,7 @@
   <a-layout id="components-layout-demo-top-side-2">
     <the-header></the-header>
     <router-view/>
-    <the-footer></the-footer>
+    <the-footer class="fixed-footer"></the-footer>
   </a-layout>
 </template>
 
@@ -27,5 +27,11 @@ export default defineComponent({
   background: rgba(255, 255, 255, 0.2);
   margin: 16px 28px 16px 0;
   float: left;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 </style>

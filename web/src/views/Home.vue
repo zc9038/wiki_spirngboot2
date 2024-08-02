@@ -88,9 +88,9 @@ export default defineComponent({
     const ebooks = ref();
 
     onMounted(() => {
-      axios.get("/ebook/list").then(resp => {
+      axios.get("/ebook/all").then(resp => {
         const data = resp.data;
-        ebooks.value = data.content;
+        ebooks.value = data;
         console.log(resp);
       });
     });

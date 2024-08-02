@@ -182,3 +182,349 @@
 2024-08-02 09:55:14.019 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
 2024-08-02 09:55:14.027 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
 2024-08-02 09:55:14.028 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：761 ms -------------
+2024-08-02 11:01:38.444 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:01:38.445 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:01:38.445 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:01:38.445 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:01:38.445 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:01:38.450 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:01:38.450 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:01:38.455 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:01:38.456 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:01:38.456 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:01:38.456 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:01:38.457 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:01:38.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:01:38.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2024-08-02 11:01:40.795 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:01:40.795 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:01:40.795 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:01:40.796 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:01:40.796 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":1,"pageSize":4}]
+2024-08-02 11:01:40.800 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:01:40.800 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:01:40.804 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:01:40.804 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:01:40.804 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:01:40.805 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2024-08-02 11:01:40.805 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2024-08-02 11:01:40.808 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:01:40.808 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:01:40.809 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:01:40.809 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:01:40.809 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:01:40.810 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 4
+2024-08-02 11:01:40.810 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:01:40.810 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
+2024-08-02 11:01:40.811 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
+2024-08-02 11:01:40.811 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2024-08-02 11:01:42.570 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:01:42.570 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:01:42.570 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:01:42.570 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:01:42.570 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:01:42.573 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:01:42.573 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:01:42.576 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:01:42.576 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:01:42.576 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:01:42.576 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:01:42.577 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:01:42.577 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:01:42.577 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-08-02 11:02:33.841 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:02:33.842 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:02:33.842 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:02:33.842 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:02:33.842 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:02:33.847 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:02:33.847 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:02:33.851 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:02:33.852 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:02:33.852 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:02:33.852 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:02:33.853 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:02:33.853 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:02:33.853 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2024-08-02 11:02:42.499 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:02:42.499 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:02:42.499 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:02:42.499 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:02:42.499 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:02:42.502 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:02:42.503 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:02:42.507 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:02:42.507 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:02:42.507 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:02:42.507 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:02:42.508 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:02:42.508 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:02:42.508 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-08-02 11:02:44.700 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:02:44.701 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:02:44.701 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:02:44.701 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:02:44.701 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":1,"pageSize":4}]
+2024-08-02 11:02:44.705 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:02:44.705 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:02:44.708 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:02:44.709 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:02:44.709 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:02:44.709 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2024-08-02 11:02:44.709 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2024-08-02 11:02:44.712 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:02:44.712 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:02:44.712 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:02:44.713 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:02:44.713 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:02:44.713 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 4
+2024-08-02 11:02:44.713 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:02:44.713 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
+2024-08-02 11:02:44.714 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
+2024-08-02 11:02:44.714 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2024-08-02 11:02:45.434 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:02:45.435 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:02:45.435 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:02:45.436 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:02:45.436 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:02:45.440 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:02:45.441 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:02:45.444 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:02:45.445 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:02:45.445 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:02:45.445 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:02:45.445 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:02:45.445 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:02:45.446 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2024-08-02 11:04:41.808 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:04:41.808 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:04:41.808 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:04:41.808 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:04:41.808 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:04:41.811 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:04:41.812 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:04:41.814 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:04:41.815 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:04:41.815 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:04:41.815 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:04:41.815 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:04:41.816 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:04:41.816 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2024-08-02 11:05:48.271 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:05:48.271 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:05:48.271 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:05:48.271 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:05:48.271 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":1,"pageSize":4}]
+2024-08-02 11:05:48.284 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:05:48.285 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:05:48.288 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:05:48.288 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:05:48.289 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:05:48.289 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2024-08-02 11:05:48.289 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2024-08-02 11:05:48.293 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:05:48.293 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:05:48.293 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:05:48.294 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:05:48.294 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:05:48.295 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 4
+2024-08-02 11:05:48.296 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:05:48.296 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
+2024-08-02 11:05:48.299 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
+2024-08-02 11:05:48.300 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：29 ms -------------
+2024-08-02 11:06:01.144 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:06:01.144 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:06:01.145 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:06:01.145 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:06:01.145 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":0,"pageSize":0}]
+2024-08-02 11:06:01.148 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:06:01.148 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:06:01.151 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:06:01.151 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:06:01.151 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:06:01.151 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:06:01.152 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：0
+2024-08-02 11:06:01.152 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":5},"success":true}
+2024-08-02 11:06:01.152 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2024-08-02 11:23:34.950 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-08-02 11:23:35.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:35.276 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-08-02 11:23:35.277 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-08-02 11:23:35.280 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+2024-08-02 11:23:35.280 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:35.282 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:35.284 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-08-02 11:23:35.298 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-08-02 11:23:35.421 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 39160 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-08-02 11:23:35.421 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-08-02 11:23:35.668 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-08-02 11:23:35.668 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:35.668 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-08-02 11:23:35.668 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-02 11:23:35.681 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-08-02 11:23:35.682 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 259 ms
+2024-08-02 11:23:35.911 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-08-02 11:23:35.916 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:35.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-08-02 11:23:35.959 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.572 seconds (JVM running for 5310.045)
+2024-08-02 11:23:35.963 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-08-02 11:23:35.963 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-08-02 11:23:35.963 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2024-08-02 11:23:37.366 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:210  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-08-02 11:23:37.664 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:37.664 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-08-02 11:23:37.666 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:37.668 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:37.781 INFO  c.z.w.config.WikiSpringboot2Application           :55   [32m                  [0;39m Starting WikiSpringboot2Application using Java 1.8.0_422 on M15_R7 with PID 39160 (C:\Users\zc903\IdeaProjects\wiki_springboot2\target\classes started by zc9038 in C:\Users\zc903\IdeaProjects\wiki_springboot2)
+2024-08-02 11:23:37.781 INFO  c.z.w.config.WikiSpringboot2Application           :645  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-08-02 11:23:37.964 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2024-08-02 11:23:37.966 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:37.966 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-08-02 11:23:37.966 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-08-02 11:23:37.979 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-08-02 11:23:37.979 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :290  [32m                  [0;39m Root WebApplicationContext: initialization completed in 196 ms
+2024-08-02 11:23:38.170 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-08-02 11:23:38.175 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2024-08-02 11:23:38.219 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2024-08-02 11:23:38.221 INFO  c.z.w.config.WikiSpringboot2Application           :61   [32m                  [0;39m Started WikiSpringboot2Application in 0.462 seconds (JVM running for 5312.307)
+2024-08-02 11:23:38.222 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-08-02 11:23:38.222 INFO  c.z.w.config.WikiSpringboot2Application           :21   [32m                  [0;39m 启动成功
+2024-08-02 11:23:38.222 INFO  c.z.w.config.WikiSpringboot2Application           :22   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2024-08-02 11:28:42.922 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-02 11:28:42.923 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-08-02 11:28:42.923 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-08-02 11:28:42.925 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:28:42.925 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/all GET
+2024-08-02 11:28:42.925 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.selectAll
+2024-08-02 11:28:42.925 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:28:42.926 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: []
+2024-08-02 11:28:42.929 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2024-08-02 11:28:42.947 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2024-08-02 11:28:42.947 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook
+2024-08-02 11:28:42.948 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:28:42.952 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:28:42.952 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:28:42.952 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:28:42.952 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:42.953 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:42.953 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:42.953 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 5
+2024-08-02 11:28:42.956 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: [{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","id":1,"name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"id":2,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","id":5,"name":"Oracle 入门教程"}]
+2024-08-02 11:28:42.956 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：31 ms -------------
+2024-08-02 11:28:54.470 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:28:54.470 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:28:54.470 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:28:54.470 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:28:54.471 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":1,"pageSize":4}]
+2024-08-02 11:28:54.478 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:28:54.479 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:28:54.482 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:28:54.482 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:28:54.482 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:28:54.483 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2024-08-02 11:28:54.483 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2024-08-02 11:28:54.485 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:28:54.485 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:28:54.486 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:28:54.486 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:54.486 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:54.486 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 4
+2024-08-02 11:28:54.486 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:28:54.487 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
+2024-08-02 11:28:54.491 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
+2024-08-02 11:28:54.492 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：22 ms -------------
+2024-08-02 11:28:55.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:28:55.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/all GET
+2024-08-02 11:28:55.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.selectAll
+2024-08-02 11:28:55.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:28:55.457 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: []
+2024-08-02 11:28:55.459 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook
+2024-08-02 11:28:55.460 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:28:55.461 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:28:55.461 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:28:55.463 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:28:55.463 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:55.463 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:55.463 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:28:55.463 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 5
+2024-08-02 11:28:55.464 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: [{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","id":1,"name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"id":2,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","id":5,"name":"Oracle 入门教程"}]
+2024-08-02 11:28:55.464 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2024-08-02 11:32:18.950 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:32:18.951 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/all GET
+2024-08-02 11:32:18.951 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.selectAll
+2024-08-02 11:32:18.951 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:32:18.951 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: []
+2024-08-02 11:32:18.953 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook
+2024-08-02 11:32:18.953 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:32:18.955 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:32:18.955 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:32:18.956 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:32:18.957 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:32:18.957 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:32:18.957 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:32:18.957 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 5
+2024-08-02 11:32:18.958 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: [{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","id":1,"name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"id":2,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","id":5,"name":"Oracle 入门教程"}]
+2024-08-02 11:32:18.959 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2024-08-02 11:33:32.761 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:33:32.761 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/all GET
+2024-08-02 11:33:32.762 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.selectAll
+2024-08-02 11:33:32.762 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:33:32.762 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: []
+2024-08-02 11:33:32.764 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook
+2024-08-02 11:33:32.764 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:33:32.767 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:33:32.767 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:33:32.767 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:33:32.767 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:32.768 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:32.768 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:32.768 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 5
+2024-08-02 11:33:32.769 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: [{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","id":1,"name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"id":2,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","id":5,"name":"Oracle 入门教程"}]
+2024-08-02 11:33:32.769 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：8 ms -------------
+2024-08-02 11:33:47.469 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:33:47.469 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2024-08-02 11:33:47.469 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.listByReq
+2024-08-02 11:33:47.469 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:33:47.470 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: [{"pageNum":1,"pageSize":4}]
+2024-08-02 11:33:47.473 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2024-08-02 11:33:47.473 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:33:47.477 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==    Columns: count(0)
+2024-08-02 11:33:47.477 TRACE c.z.w.mapper.EbookMapper.selectByExample_COUNT    :143  [32m                  [0;39m <==        Row: 5
+2024-08-02 11:33:47.477 DEBUG c.z.w.mapper.EbookMapper.selectByExample_COUNT    :137  [32m                  [0;39m <==      Total: 1
+2024-08-02 11:33:47.478 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2024-08-02 11:33:47.478 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 4(Integer)
+2024-08-02 11:33:47.480 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:33:47.480 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:33:47.480 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:33:47.481 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:47.481 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:47.481 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 4
+2024-08-02 11:33:47.482 INFO  com.zc.wiki_springboot2.service.EbookService      :50   [32m                  [0;39m 总行数：5
+2024-08-02 11:33:47.482 INFO  com.zc.wiki_springboot2.service.EbookService      :51   [32m                  [0;39m 总页数：2
+2024-08-02 11:33:47.482 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","name":"Mysql 入门教程"}],"total":5},"success":true}
+2024-08-02 11:33:47.482 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2024-08-02 11:33:50.940 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :43   [32m                  [0;39m ------------- 开始 -------------
+2024-08-02 11:33:50.940 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :44   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/all GET
+2024-08-02 11:33:50.940 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :45   [32m                  [0;39m 类名方法: com.zc.wiki_springboot2.controller.EbookController.selectAll
+2024-08-02 11:33:50.940 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :46   [32m                  [0;39m 远程地址: 127.0.0.1
+2024-08-02 11:33:50.940 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :66   [32m                  [0;39m 请求参数: []
+2024-08-02 11:33:50.942 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook
+2024-08-02 11:33:50.942 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m ==> Parameters: 
+2024-08-02 11:33:50.943 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2024-08-02 11:33:50.944 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 1, Spring Boot 入门教程, null, null, 零基础入门 Java 开发，企业级应用开发最佳首选框架, /image/cover1.png, null, null, null
+2024-08-02 11:33:50.944 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 2, Vue 入门教程, 1, 2, 零基础入门 Vue 开发，企业级应用开发最佳首选框架, /image/cover2.png, 4, 5, 6
+2024-08-02 11:33:50.944 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 3, Python 入门教程, null, null, 零基础入门 Python 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:50.944 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 4, Mysql 入门教程, null, null, 零基础入门 Mysql 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:50.945 TRACE c.z.w.mapper.EbookMapper.selectByExample          :143  [32m                  [0;39m <==        Row: 5, Oracle 入门教程, null, null, 零基础入门 Oracle 开发，企业级应用开发最佳首选框架, null, null, null, null
+2024-08-02 11:33:50.945 DEBUG c.z.w.mapper.EbookMapper.selectByExample          :137  [32m                  [0;39m <==      Total: 5
+2024-08-02 11:33:50.945 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :78   [32m                  [0;39m 返回结果: [{"cover":"/image/cover1.png","description":"零基础入门 Java 开发，企业级应用开发最佳首选框架","id":1,"name":"Spring Boot 入门教程"},{"category1Id":1,"category2Id":2,"cover":"/image/cover2.png","description":"零基础入门 Vue 开发，企业级应用开发最佳首选框架","docCount":4,"id":2,"name":"Vue 入门教程","viewCount":5,"voteCount":6},{"description":"零基础入门 Python 开发，企业级应用开发最佳首选框架","id":3,"name":"Python 入门教程"},{"description":"零基础入门 Mysql 开发，企业级应用开发最佳首选框架","id":4,"name":"Mysql 入门教程"},{"description":"零基础入门 Oracle 开发，企业级应用开发最佳首选框架","id":5,"name":"Oracle 入门教程"}]
+2024-08-02 11:33:50.945 INFO  com.zc.wiki_springboot2.aspect.LogAspect          :79   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------

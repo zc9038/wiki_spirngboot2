@@ -43,4 +43,9 @@ public class EbookController {
         resp.setContent(pageResp);
         return resp;
     }
+
+    @GetMapping("/all")
+    public List<Ebook> selectAll(){
+        return ebookService.selectByExample();
+    }
 }

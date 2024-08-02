@@ -88,10 +88,7 @@ export default defineComponent({
     const handleQuery = (params: any) => {
       loading.value = true;
       axios.get("/ebook/list", {
-        params: {
-          pageNum:params.page,
-          pageSize:params.size
-        }
+        params: params
       }).then((response) => {
         loading.value = false;
         const data = response.data;
@@ -109,15 +106,15 @@ export default defineComponent({
     const handleTableChange = (pagination: any) => {
       console.log("看看自带的分页参数都有啥：" + pagination.current);
       handleQuery({
-        page: pagination.current,
-        size: pagination.pageSize
+        pageNum: pagination.current,
+        pageSize: pagination.pageSize
       });
     };
 
     onMounted(() => {
       handleQuery({
-        page: pagination.value.current,
-        size: pagination.value.pageSize,
+        pageNum: pagination.value.current,
+        pageSize: pagination.value.pageSize,
       });
     });
 
